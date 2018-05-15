@@ -18,7 +18,7 @@ class String
     complex_string = self.split(/[!.]/) #regex: http://rubular.com/
     # Use regex after you split your string to identify punctuation marks.
     binding.pry
-    complex_string.length
+    complex_string
     #Count your string by counting the punctuation marks.
   end
 
