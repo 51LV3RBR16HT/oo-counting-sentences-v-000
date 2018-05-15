@@ -19,7 +19,8 @@ class String
     # Use regex after you split your string to identify punctuation marks.
 
     complex_string.length
-    
+    return complex_string
+
     #Count your string by counting the punctuation marks.
   end
 
