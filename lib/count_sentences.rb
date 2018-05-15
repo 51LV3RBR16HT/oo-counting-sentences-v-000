@@ -17,8 +17,9 @@ class String
   def count_sentences
     complex_string = self.split(/[!.]/) #regex: http://rubular.com/
     # Use regex after you split your string to identify punctuation marks.
-    binding.pry
+
     complex_string.length
+      binding.pry
     #Count your string by counting the punctuation marks.
   end
 
